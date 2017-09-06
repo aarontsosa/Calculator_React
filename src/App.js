@@ -52,6 +52,7 @@ class App extends Component {
     let new_array = this.state.math
     new_array.push(num)
     let new_display = eval(new_array.join(' '))
+    console.log(new_display)
     this.setState({
       display: new_display,
       math: []
